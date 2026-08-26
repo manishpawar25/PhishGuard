@@ -1,0 +1,21 @@
+label,message
+safe,Hey bro what time are we meeting today?
+safe,Your electricity bill has been paid successfully.
+safe,Your order has been shipped and will arrive tomorrow.
+safe,Reminder: Your college assignment is due tomorrow.
+safe,Your OTP for login is 482931. Do not share it.
+safe,Your bank account statement is now available.
+safe,Meeting scheduled at 10 AM tomorrow.
+safe,Your recharge was successful.
+safe,Happy birthday! Have a great day.
+safe,Your appointment is confirmed for Monday.
+phishing,Congratulations! You won a lottery of 10 lakh. Click this link now.
+phishing,URGENT! Your bank account will be blocked. Verify your details immediately.
+phishing,You have won a free iPhone. Claim your prize now.
+phishing,Your account has been suspended. Click here to verify.
+phishing,Send your OTP and bank details to receive your reward.
+phishing,You won a cash prize. Pay a small fee to claim it.
+phishing,URGENT: Your KYC has expired. Update it using this link.
+phishing,Click this link immediately to receive your refund.
+phishing,Your ATM card will be blocked today. Verify your PIN now.
+phishing,You have been selected for a government cash reward. Claim now.

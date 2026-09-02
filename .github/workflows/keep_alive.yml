@@ -1,0 +1,15 @@
+name: Keep Streamlit App Awake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Ping Request
+        run: |
+          curl -L --max-time 30 "https://phishguard-m9a7niypmmgckhhrkxrone.streamlit.app/"

@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Send Ping Request
         run: |
-          curl -L --max-time 30 "https://phishguard-m9a7niypmmgckhhrkxrone.streamlit.app/"
+          curl --max-time 30 -s -o /dev/null -w "%{http_code}\n" "https://phishguard-m9a7niypmmgckhhrkxrone.streamlit.app/"
